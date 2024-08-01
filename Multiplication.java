@@ -1,14 +1,11 @@
 import java.util.Scanner;
 public class Main{
-    public static void main(String[] args)
-    {
-        int a,b;
-       Scanner read = new Scanner(System.in);
-        a=read.nextInt();
-        b=read.nextInt();
-        int c = a*b;
-        System.out.println(c);
-        
+    public static void main(String[] args){
+        int n,i;
+        Scanner read = new Scanner(System.in);
+        n=read.nextInt();
+        i=read.nextInt();
+        int res=n*i;
+        System.out.println(res);
     }
-    
 }
